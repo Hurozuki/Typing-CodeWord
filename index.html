@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing CodeWord</title>
+    <script src="./js/typing.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- Bootstrap CDN(1) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- リセットCSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+</head>
+
+
+<body class="bg-dark">
+
+    <h2 class="display-8" id="miss-count"></h2>
+
+    <h1 id="main-content" class="display-2 fw-bold"></h1>
+    <h2 class="display-8" id="sub-content">
+        <span id="typed-text" class="text-success"></span><span id="type-text"></span>
+    </h2>
+    <button class="btn btn-lg btn-outline-light" id="start-stop-button">START</button>
+
+    <!-- 説明 -->
+    <div class="card bg-light" id="description-card">
+        <div class="card-body">
+            <b>ルール</b>
+            <ul>
+                <li>大文字、小文字は識別します。</li>
+                <li>空白もタイピング対象です。</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Bootstrap CDN(2) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

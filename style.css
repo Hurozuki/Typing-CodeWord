@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#miss-count {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    color: red;
+}
+
+/* タイピング表示文字 */
+#main-content {
+    color: white;
+}
+
+/* タイピング表示要素（2行目） */
+#sub-content {
+    color: white;
+}
+
+#sub-content span {
+    white-space: pre;
+}
+
+#description-card {
+    position: absolute;
+    bottom: 3.5em;
+    max-width: 90%;
+}
+
+div.card-body {
+    width: 100%;
+    overflow: auto;
+    max-height: 8em;
+}
