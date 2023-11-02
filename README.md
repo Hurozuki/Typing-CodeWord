@@ -10,6 +10,7 @@ TypeScriptの基礎学習を終えたので作りました。
 * HTML
 * CSS
 * TypeScript
+* React
 * Bootstrap
 * AWS Amplify
 * Git
